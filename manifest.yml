@@ -5,5 +5,5 @@ applications:
     routes:
       - route: "pal-tracker-terrific-impala-fn.cfapps.io"
     env:
-      WELCOME_MESSAGE: Example from the review environment
+      WELCOME_MESSAGE: Hello from Cloud Foundry
       JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'
