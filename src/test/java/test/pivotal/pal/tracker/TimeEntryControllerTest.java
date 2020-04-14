@@ -1,12 +1,12 @@
 package test.pivotal.pal.tracker;
 
-import io.pivotal.pal.tracker.TimeEntry;
 import io.pivotal.pal.tracker.TimeEntryController;
-import io.pivotal.pal.tracker.TimeEntryRepository;
+import io.pivotal.pal.tracker.bean.TimeEntry;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import io.pivotal.pal.tracker.dao.TimeEntryRepository;
 
 import java.time.LocalDate;
 import java.util.List;
