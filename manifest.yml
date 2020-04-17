@@ -5,7 +5,7 @@ applications:
     routes:
       - route: "pal-tracker-terrific-impala-fn.cfapps.io"
     env:
-      WELCOME_MESSAGE: Hello from the review environment
+      WELCOME_MESSAGE: Example from the review environment
       JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'
 
     services:
